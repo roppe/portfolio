@@ -1,0 +1,2294 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR NY IPHONE REPAIR WEBSITE
+ * 
+ */
+
+
+/* Google Fonts - OPEN SANS */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+    .navbar-toggler .navbar-toggler-icon .fa{
+    font-size: 30px;
+    display: block !important;
+    color: #e69906!important;
+    border:0;
+    }
+
+    .main-navigation .logo-header{
+    display: block;
+    float: left;
+    width: 250px !important;height:58px;
+    background:url(../img/nyc-restaurant-logo.png) 0 0 no-repeat;
+    margin-right: 0 !important;
+    margin-top: 10px;
+
+    }
+
+    .main-navigation{
+    background-color: #ffffff;
+    display: block;
+    padding-left: 0;padding-right: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #eee;
+    }
+
+    .main-navigation .nav-list .nav-link{
+    font-family: "Open Sans";
+    font-weight:600;
+    color: #313433;
+    text-transform:uppercase;
+    font-size: 13px;
+    letter-spacing: 1px !important;
+    margin-right:5px;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+    .nav-list .nav-item .btn-nav-book{
+    background-color: #E69906;
+    padding-top: 6px;
+    padding-bottom:6px;
+
+    color: #ffffff;
+    border-radius:2px;
+    }
+
+    .nav-list .nav-item .btn-nav-book .fa{
+    margin-right: 7px;
+    font-size: 15px;
+    vertical-align: -1px;
+    }
+
+
+    .main-navigation .nav-list .nav-link:hover{
+    cursor: pointer;
+    color: #039be5;
+    }
+
+    .nav-list .nav-item .btn-nav-book:hover{
+    color: #fafafa !important;
+    background-color: #0483c1;
+    }
+
+    .nav-list .dropdown{
+    font-family: "Open Sans";
+    font-weight:600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right:10px;
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+    }
+
+    .nav-list .dropdown a{
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    }
+    .nav-list .dropdown a:hover{
+    text-decoration: none;
+    color: #069455;
+    }
+
+    .nav-list .dropdown a .caret{
+    padding-top: 10px;
+    }
+
+
+   .nav-list .dropdown .nav-dropdown{
+    border-radius: 0;
+    width:240px;
+    padding-bottom:0;
+      padding-top: 0;
+    }
+
+    .nav-list .dropdown .nav-dropdown li{
+    padding-top:8px;padding-bottom:8px;
+    display: inline !important;
+    float: left;
+    border-right: 1px solid #eee;
+    border-top:1px solid #eee; 
+    width:100%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(2n){
+        background-color: #f9f6f6;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(3n){
+    border-right: 0;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#cc8807;
+	}
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	 font-family: "Open Sans";
+    font-weight: 500;
+    border: 0;
+	 }
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+    	margin-left: 10px;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #e0e1e2;
+	cursor: pointer;
+	}
+	
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+	 outline: none !important;
+  box-shadow: none !important;
+	}
+   
+    .nav-list .dropdown .nav-dropdown li a img{
+   	display: block;
+   	margin-right: auto;
+   	margin-left: auto;
+    }
+
+    .nav-list .dropdown .nav-dropdown a p{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #313433;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+     padding-left: 15px;padding-right: 15px;
+     margin-top:0;
+     text-align: left!important;
+     width: 100%;
+     margin-bottom:0;
+    }
+
+    .dropdown .nav-dropdown li a:hover{
+    color: #e69906;
+
+    }
+
+    .dropdown .nav-dropdown li a>p:hover{
+    color:#e69906;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:hover{
+    background: #f5f6f8;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a img {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    }
+
+    .nav-list .dropdown .nav-dropdown .nav-title a p{
+    text-align: center !important;
+    padding-top:7px;
+    color: #313433;
+    font-weight: 700;
+    }
+
+    /* Slider */
+
+
+  /* STYLE FOR HOME TOP SECTION */
+
+    #home-section{
+    background-image: url(../img/slider-kitchen-home.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+     padding:180px 0 10px;
+        background-color: #fff;
+    }
+
+
+     .process-steps{
+    margin-bottom: 10px;
+    max-width: 300px;
+    background-color: #fafafa;
+    margin-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:40px;
+    position: relative;
+    }
+
+    .process-steps:last-child{
+        margin-right: 0;
+    }
+
+    .process-steps img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:35%;
+
+    }
+
+     .process-steps h6{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #E69906;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    }
+
+     .process-steps a{
+          
+    font-family: 'Open Sans';
+    font-weight:600;
+    color: #0f2944;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right:15px;
+     }
+
+     .process-steps p{
+    font-family: 'Open Sans';
+    font-weight:600;
+    color: #0f2944;
+    font-size: 12px;
+    text-align: center;
+    }
+
+    .process-steps .main-title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #069455;
+    font-size: 35px;
+    margin-top:40px;
+    }
+
+    .process-steps .second-title{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #0f2944;
+    font-size: 21px;
+    margin-top: 15px;
+    font-style: italic;
+    }
+
+    #home-section .text-area{
+     display: block;
+     margin-bottom: 30px;
+     margin-top:15px;
+     margin-right: auto;margin-left: auto;
+
+    }
+
+    #home-section .text-area h3{
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #fff;
+    font-size:22px;
+    text-align: center;
+   }
+
+   #home-section .text-area h3 span{
+    font-family: "Open Sans";
+    font-weight: 500;
+    color:#fff !important;
+    font-size: 28px;
+    letter-spacing: 2px;
+   }
+
+    #home-section .text-area h2{
+    font-family: "Open Sans";
+    font-weight:700;
+    color:#ffffff;
+    font-size: 28px;
+    text-align:center;
+    margin-top:20px;
+    text-transform: uppercase;
+   }
+
+     #home-section .text-area h2 span{
+    font-family: "Open Sans";
+    font-weight:700;
+    color:#ffffff;
+    font-size: 28px;
+    text-align:center;
+    margin-top:20px;
+    text-transform: uppercase;
+   }
+  
+     
+    #home-section .text-area .btn-demo-home{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #073664;
+    text-transform: uppercase;
+    background-color:#E69906;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border:1px solid #E69906;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    }
+
+    #home-section .text-area .btn-demo-home span{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;    
+    vertical-align:0;
+    }
+
+    #top-section{
+    padding-top: 40px;padding-bottom: 40px;
+    background: #ffffff;
+    }
+
+    #top-section .tx-box-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #top-section .tx-box-1 h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #273a44;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    }
+
+    #top-section .tx-box-1 h4{
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #273a44;
+    font-size: 15px;
+    text-align:left;
+    }
+
+    .catagories-home{
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 25px;
+    }
+
+    .catagories-home li{
+    display: block;
+    list-style-type: none;
+    margin-bottom: 5px;
+    float: left;
+    width: 20%;
+    }
+
+    .catagories-home li img{
+    display: block;
+    margin-left: auto;margin-right: auto;
+    width: 150px;height: 150px;
+    }
+
+    .catagories-home li h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top:0;
+    text-align: center;
+    color: #131f28;
+    font-family: "Open Sans"; 
+    }
+
+
+
+
+    #info-description {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #fdfdfd;
+    }
+
+    .info-left-side h2{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #273a44 !important;
+    font-size: 30px;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+
+    .info-left-side  h3 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #273a44;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    }
+
+    .info-left-side  h5{
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #073664 !important;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+    }
+
+    .info-left-side  h6{
+    font-family: "Open Sans";
+    font-weight: 600;    
+    color: #273a44; 
+    font-size: 15px;
+    text-align: left;
+    }
+
+
+    .info-left-side  p{
+      font-family: "Open Sans";
+    font-weight: 400;
+    color:#273a44;
+    font-size: 15px;
+    text-align: left;
+    }
+
+    .info-left-side  .btn-quote-sell{
+     font-family: "Open Sans";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #E69906;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    .info-left-side  .btn-quote-sell .fa{
+    margin-left: 5px;
+    }
+
+    .sell-right-side img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    
+    /* FAQ  SECTION */
+
+    #faq-section-ta{
+    background-color: #ffffff;
+    display: block;
+    padding-top:30px;
+    padding-bottom:100px;
+       /* background-image: url(../img/line-pattern.png);*/
+    background-repeat: repeat-x;
+    margin-top:5px;
+    }
+
+    #faq-section-ta .text-faq-box{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    #faq-section-ta .text-faq-box h3{
+    font-family: "Open Sans";
+    font-weight: 500;
+   color: #151515;
+    font-size:18px;
+
+    text-align: center;
+    padding-bottom: 7px;
+     word-wrap: break-word !important;
+    }
+    
+    #faq-section-ta .text-faq-box h2{
+   font-weight: 600;
+    color: #151515;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-family: "Open Sans";
+    }
+
+    .card-faq{
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid #f5f0f0;
+    }
+
+    .webpro-faq .card-body{
+    background-color: #ffffff;
+    font-family: "Open Sans";
+    font-weight:500;
+    color: #151515;
+    font-size: 15px;
+    border-left: 2px solid #E69906;
+     }
+
+    .webpro-faq .faq-header{
+    padding-top:8px;padding-bottom:8px;
+    font-family: "Open Sans";
+    font-weight:700;
+    color: #313433; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fdfcfc;
+    border-bottom: 0;
+      white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+    .webpro-faq .faq-header .btn{
+    font-family: "Open Sans";
+    font-weight:600;
+     color: #151515;
+    font-size: 15px;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    }
+
+     .webpro-faq .faq-header .btn .fa{
+    float: right;
+    color: #151515;
+
+    }
+      .webpro-faq .faq-header .btn:hover{
+    cursor: pointer;
+     color: #E69906;
+    }
+
+    .webpro-faq .btn:active,  .faq-header .btn:focus {
+    border-color: transparent;
+    box-shadow: none;
+    color:#E69906;
+    text-decoration: none;
+    }
+
+    .faq-header .btn:active .fa,  .faq-header .btn:focus .fa {
+    border-color: transparent;
+    color: #E69906;
+    }
+
+
+
+
+    /* Banner call us now  */
+    
+    .banner-call{
+    padding-top: 20px;padding-bottom: 20px;
+    background-color: #fafafa;
+    background: url(../img/green-lines.png);
+    background-repeat:repeat-x;
+    width: 100%;
+    }
+
+    .banner-call .call-left h4{
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #fafafa;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 25px;
+     
+    }
+
+    .banner-call .call-left h5{
+    font-family: 'Open Sans';
+    font-weight: 00;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 10px;
+    text-align: center;
+     text-shadow: 0px 1px #000;
+    }
+
+    .banner-call .call-left h5 span{
+       font-family: 'Open Sans';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 0px 1px #000;
+    border: 2px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;padding-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px;margin-left: 10px;
+  
+    }
+
+    .banner-call .call-left h5 span .fa{
+    margin-left: 10px;margin-right: 8px;
+    font-size: 30px;
+    color: #fff;
+    }
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+
+
+
+    
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+	  footer{
+    background:#0a0f13;
+    padding-top:45px;
+    padding-bottom:0;
+    }
+
+    footer .logo-left {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 5px;
+    }
+
+     footer .text-rights{
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #7b8084;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 10px;
+    margin-top:20px;
+    border-top: 1px solid #1d2428;
+    padding-top: 10px;
+    letter-spacing: 1px;
+     }
+
+     /* Footer contact inforamtion on left side */
+
+	.logo-left li {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width:90%;
+	}
+
+	.logo-left li a{
+	font-family: "Open Sans";
+    font-weight: 400;
+    color: #dee1e3;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+	}
+	.logo-left li a .fa{
+	margin-right: 8px;
+	 color: #dee1e3;
+	 font-size: 7px;
+	 vertical-align: 2px;
+	}
+
+	.logo-left li a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	color: #f2bd25;
+	}
+
+    .logo-left li h5{
+            font-family: "Open Sans";
+    font-weight: 600;
+    color: #e69906;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 0;
+    }
+
+    .logo-left li p{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+ 
+    font-size: 16px;
+    text-align:left;
+    letter-spacing: 1px;
+    }
+    
+
+
+	/* Footer Social networks icons   */
+
+    .call-footer{
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 100%;
+
+    }
+
+    .call-footer  h3{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #e69906;
+    font-size: 14px;
+    text-align: center; 
+    padding-bottom:0;
+    width:100%;
+    }
+
+     .call-footer a{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center; 
+        margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    }
+
+     .call-footer a span{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center; 
+    letter-spacing: 1px;
+   
+    }
+
+    .call-footer a .fa{
+        margin-right: 10px;
+    }
+
+
+    
+    .sub-footer{
+    display: block;
+    width: 100%;
+    padding-top:8px;padding-bottom:8px;
+        border-top: 1px solid #1c2934;
+
+    margin-top:25px;
+    }
+
+    .sub-footer .copy {
+   font-family: "Open Sans";
+    font-weight: 400;
+    color: #b7b6b6 !important;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    float: right;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    }
+
+
+    /* HOme Page banner section before after about  */
+
+    .banner-left-1{
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .banner-left-1 .img-fluid{
+   
+    }
+
+    .banner-right-3{
+     width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }   
+    
+    .banner-center-2 .txt-center{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    }
+
+
+    .banner-center-2 .txt-center h2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 26px;
+    margin-bottom:20px;
+    text-align: left;
+    }
+
+    .banner-center-2 .txt-center p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 14px;
+    text-align:left;
+    }
+
+    .banner-center-2 .button-go-services{
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width:190px;
+    font-family: "Open Sans";
+    font-weight:600;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color:#039BE5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #039BE5;
+    border-radius: 2px;
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    /* =================  CSS PAGE: BUY-EQUIPMENT.HTML - Buy Equipment Page  ==========================   */
+
+    .banner-cover-top{
+    padding-bottom:70px;
+    margin-top:70px;
+    background-color: #eee;
+    /*background-image: url(../img/ny-gray-background.png);*/
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    height:220px;
+    }
+
+    .banner-cover-top .text-headline h2{
+    font-size:22px;
+    font-family: "Open Sans";
+    text-align:center;
+    color:#fff;
+    font-weight:500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;  
+        text-shadow: 2px 2px #0d0d0d;  
+    }
+
+    .banner-cover-top .text-headline h2 span{
+    font-size:34px;
+    font-family: "Open Sans";
+    text-align:center;
+    color: #fff;
+    font-weight:700;    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #0d0d0d;
+    }
+
+    .banner-cover-top .text-headline{
+    background-color:transparent;
+    margin-top: 50px;
+    padding-top: 15px;
+    }
+
+    #buy-txt-section{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    }
+
+    #buy-txt-section .repair-content{
+    position: relative;
+    display: block; 
+    width: 100%;
+    margin-bottom: 25px;
+    }
+
+    #buy-txt-section .repair-content h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #273a44;
+    font-size: 27px;
+    text-align: left;
+    margin-top:15px;
+    margin-bottom:20px;
+    }
+
+   
+
+    #buy-txt-section .repair-content  p {
+     font-family: "Open Sans";
+    font-weight: 500;
+    color: #313433;
+    font-size: 14px;
+    text-align: left;
+    }
+
+    #we-buy-section .title-box h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #131f28;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    border-bottom: 1px solid #d4d8d2;
+  
+    }
+
+
+    #we-buy-section .title-box h2 img{
+     margin-right: 20px;
+     margin-bottom: 5px;
+  
+    }
+
+    .product-list{
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 25px;
+    }
+
+    .product-list li{
+    display: block;
+    list-style-type: none;
+    margin-bottom: 20px;
+    float: left;
+    width: 20%;
+    }
+
+    .product-list li img{
+    display: block;
+    margin-left: auto;margin-right: auto;
+    width: 100px;height: 100px;
+    }
+
+    .product-list li h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    color: #131f28;
+    font-family: "Open Sans"; 
+    }
+
+
+    #we-buy-section .title-box p{
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #313433;
+    font-size: 14px;
+    text-align: left;
+    }
+
+
+
+   
+
+    #buy-txt-section .gallery-content{
+    width: 100%;
+    }
+
+    #we-buy-section{
+        padding-top: 40px;padding-bottom: 40px;
+    }
+
+    #we-buy-section .tx-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #we-buy-section .tx-box h2{
+     font-family: "Open Sans";
+    font-weight: 600;
+    color: #273a44;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+
+    #we-buy-section .tx-box h4{
+     font-family: "Open Sans";
+    font-weight: 400;
+    color: #273a44;
+    font-size: 20px;
+    text-align: center;
+    }
+
+
+
+    /* SELL PAGE  */
+
+    #section-how-it-work{
+    padding-bottom:25px;
+    padding-top:25px;
+    border-bottom: 1px solid #fafafa;
+    background-color: #ffffff;
+        background-image: url(../img/light-bck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+ 
+    #section-how-it-work .main-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #131f28;
+        font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #7ed957;
+    }
+
+    #section-how-it-work .main-title img {
+    margin-right: 20px;
+    display: block;
+    float: left;
+    margin-top: -26px;
+    }
+
+  
+    
+    .inner-how-it-work-1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    }
+
+    #section-how-it-work .box-text-5 .line-d{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #7ed957;
+    width: 35px;
+    margin-bottom: 15px;
+    }
+
+    #section-how-it-work .box-text-5 h4{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom:5px;
+    text-align: center;
+    color: #4e4e4e;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    #section-how-it-work .box-text-5 h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top:5px;
+    margin-bottom: 15px;
+    text-align:center;
+    color: #273a44;
+        font-family: 'Poppins', sans-serif;
+  
+    }
+
+
+    .inner-how-it-work-1 .first-side-work  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease-in-out;
+    width: 105px;height: 105px;
+    }
+
+    .inner-how-it-work-1 .first-side-work  img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    }
+
+    .inner-how-it-work-1 .first-side-work .headline-app{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #273a44 !important;
+    font-size:18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    }
+
+
+    .inner-how-it-work-1 .first-side-work  .border-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid #e69906;
+    width: 35px;
+    margin-bottom: 15px;
+    }
+
+    .inner-how-it-work-1 .first-side-work{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-right: 20px;padding-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    .inner-how-it-work-1 .first-side-work .text-description{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #273a44;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+
+    /* banner*/
+
+
+      .demo-box{
+    background-color:#253f59;
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: url(../img/orange-cover.png);
+    background-repeat: repeat-x;
+    }
+
+    .demo-box .box-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .demo-box .box-content h3{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color:#fff;
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+    .demo-box .box-content p{
+       font-family: "Open Sans";
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+
+    .demo-box .box-content .border-line-5{
+      border-bottom: 1px solid #fafafa;
+    width: 20%;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+
+    .box-content .btn-signup-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+      font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #203c53;
+    padding-top: 13px;padding-bottom: 13px;
+    border:0;border-radius: 0;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    }
+
+    .box-content .btn-signup-5:hover{
+        cursor: pointer;
+        /*background-color: #cc9d19;*/
+        color: #ffffff;
+    }
+
+
+
+    /* CONTACT PAGE */
+
+
+     /* maap and hours of operatipon*/
+    #location-hour {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        border-top: 1px solid #eee;
+         border-bottom: 1px solid #eee;
+    }
+
+    #location-hour .map-info {
+
+        background-color: #fdfcfc;
+        padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    height: 320px;
+     background-image: url(../img/nyc-silhuete.png); 
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    }
+    
+
+
+    #location-hour .map-info .t-1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+        font-family: 'Poppins', sans-serif;
+    color:  #273a44;
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    }
+
+    #location-hour .map-info  a span{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+        font-family: 'Poppins', sans-serif;
+    color:  #273a44;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    }
+
+    #location-hour .map-info  a .fa{
+        margin-right: 10px;
+        float: left;
+        display: block;
+    }
+
+     #location-hour .map-info  a{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+     }
+
+    #location-hour .map-info  a:hover{
+    text-decoration: none;
+    }
+
+     #location-hour .map-info .t-2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+        font-family: 'Poppins', sans-serif;
+    color:  #273a44;
+    margin-top:0;
+     margin-bottom: 20px;
+    }
+
+   
+
+    #location-hour .service-info{
+    padding-right: 25px;padding-left: 25px;
+    padding-top:0;
+
+    }
+
+    #location-hour .service-info .open-hours {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    float: left;
+    background-color: #fdfcfc;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+        box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+
+
+    }
+
+    .service-info .open-hours  li{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+    }
+
+    .service-info .open-hours li p{
+        font-family: "Open Sans";
+    font-weight: 600;
+    color: #273a44;
+    text-align: center !important;
+    font-size: 13px;
+    float: left;
+    background:#f1f0f0;
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    }
+
+    .service-info .open-hours li span{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    color:  #273a44;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#f7f6f6;
+    }
+
+     .service-info .open-hours h3{
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align:center;
+     color: #273a44;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    }
+
+    
+
+
+
+
+
+
+
+    .section-how-it-work {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #fafafa;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .section-how-it-work .box-text-6 h2 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #273a44;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .section-how-it-work .how-steps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    .section-how-it-work .how-steps .headline{
+            font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #131f28 !important;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+
+    .section-how-it-work .how-steps p {
+        font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #131f28;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .section-how-it-work .how-steps img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;  
+      font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    /* PETAR NEW WEBSITE CSS DESIGN  */
+
+
+    #my-services{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #my-services h5{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #151515;
+      
+    }
+
+    #my-services h3{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #101010;
+        width: 100%;
+    }
+  
+    .inner-box{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+        padding-right: 20px;padding-left: 20px;
+        margin-bottom: 20px;
+        max-width: 320px;
+        border:1px solid #eee;
+    }
+    
+    .inner-box .text-description{
+            font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #273a44;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+         
+    .inner-box  img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .2s ease-in-out;
+        width: 105px;height: 105px;
+    }
+
+    .inner-box  img:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .inner-box .headline{
+            font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #273a44 !important;
+        font-size:18px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+
+    /* MY PROCESS SECTION DESIGN */
+
+    #my-process{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        border-top:1px solid #4e4e4e;
+        border-bottom:1px solid #4e4e4e;
+    }
+
+    #my-process h5{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #00343d;
+      
+    }
+
+    #my-process h3{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 37px;
+        color: #00343d;
+        width: 100%;
+        text-transform: 2px;
+      
+    }
+
+    .box-process {
+     margin-top: 25px;
+    }
+
+    .box-process h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 18px; 
+        color: #00343d;
+        padding-bottom: 5px;;
+        }
+
+    .box-process p{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px; 
+        color: #00343d; 
+    }
+
+
+    /* clinets section */
+
+    #our-clients{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        border-top:1px solid #4e4e4e;
+        border-bottom:1px solid #4e4e4e;
+    }
+
+    #our-clients h5{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #00343d;
+      
+    }
+
+    #our-clients h3{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size:37px;
+        color: #00343d;
+        width: 100%;
+        text-transform: 2px;
+    }
+
+    .company-list{
+        display: block;
+        padding-left: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .company-list li  {
+        display: block;
+        float: left;
+        margin-bottom: 20px;
+    
+        margin-right: 25px;
+    }
+
+    .company-list li img{
+        display: block;
+      
+    }
+
+
+    /* Contact Us Section */
+
+    #contact{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top:1px solid #4e4e4e;
+        border-bottom:1px solid #4e4e4e;
+    }
+
+    #contact h5{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #00343d;
+        margin-bottom: 50px;;
+      
+    }
+
+    #contact h3{
+          font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size:37px;
+        color: #00343d;
+        width: 100%;
+        text-transform: 2px;
+    }
+
+    .info-contact{
+     margin-bottom: 10px;;
+    }
+
+    .info-contact h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #00343d;  
+    }
+
+    
+    .info-contact a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #00343d;  
+     }
+
+    .info-contact .line{
+        display:block;
+        width: 90%;
+        border: 1.5px solid #fff;
+    }
+
+
+    #fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825em;
+  margin-bottom: .5em;
+  padding-top: .2em;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1em;
+  margin-bottom: 1.5em;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+
+
+
+    /* -------------------  RESPOSNIVE DESGIN -------------------  */
+    
+      @media (max-width: 1079px) {
+
+          .main-navigation .nav-list .nav-link{
+            font-size: 11px;
+          }
+
+          #buy-txt-section .repair-content h2{
+            font-size: 24px;
+          }
+
+          .banner-call .call-left h4{
+            font-size: 18px;
+          }
+
+          .banner-call .call-left h5{
+            font-size: 26px;
+          }
+
+              .banner-call .call-left h5 span {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 26px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-shadow: 0px 1px #000;
+            border: 2px solid #fff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-left: 10px;
+            }
+
+            .demo-box .box-content h3{
+                font-size: 24px;
+            }
+
+            .info-left-side h2{
+                font-size: 26px;
+            }
+
+
+      }
+        
+
+
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+	
+
+    @media (max-width: 991px) {
+        
+       
+
+        #top-section .tx-box-1 h2{
+        font-size: 22px;
+        }
+
+        #top-section .tx-box-1 h4{
+        font-size: 17px;
+        }
+
+        .catagories-home li h6{
+        font-size: 13px;
+        }
+
+        .catagories-home li img{
+        width: 110px;height: 110px;
+        }
+
+        .banner-call .call-left h4{
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5{
+        font-size: 24px;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 24px;
+        }
+
+        .info-left-side h2{
+            font-size: 22px;
+        }
+
+        .info-left-side h3{
+            font-size: 19px;
+        }
+
+        .sell-right-side img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: none;
+
+        }
+
+        .info-left-side{
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .process-steps {
+        margin-bottom: 10px;
+        max-width: 230px;
+        background-color: #fafafa;
+        margin-right: 8px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        position: relative;
+        }
+
+        .process-steps h6{
+            font-size: 13px;
+        }
+
+        .process-steps p{
+            font-size: 11px;
+        }
+
+        .banner-cover-top .text-headline{
+            margin-top: 15px;
+        }
+
+        .banner-cover-top .text-headline h2 span{
+            font-size: 26px;
+        }
+
+        .banner-cover-top .text-headline h2{
+            font-size: 19px;
+        }
+
+
+        .gallery-content .pic-1{
+            width: 55%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #we-buy-section .tx-box h2{
+            font-size: 21px;
+        }
+
+        #we-buy-section .tx-box h4{
+            font-size: 17px;
+        }
+
+        #we-buy-section .title-box h2{
+            font-size: 19px;
+            text-align: center;
+        }
+
+        #we-buy-section .title-box p{
+            font-size: 13px;
+        }
+
+        .product-list li{
+            width: 25%;
+        }
+
+        .product-list li h6{
+            font-size: 14px;
+        }
+
+        #section-how-it-work .box-text-5 h2{
+            font-size: 24px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .headline-app{
+            font-size: 15px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description{
+            font-size: 14px;
+        }
+
+        #buy-txt-section .repair-content h2{
+            font-size: 25px;
+        }
+
+        .demo-box .box-content p{
+            font-size: 16px;
+        }
+
+        .section-how-it-work .box-text-6 h2{
+            font-size: 24px;
+        }
+
+        #location-hour .map-info .t-1{
+            font-size: 15px;
+        }
+
+        #location-hour .map-info a span{
+            font-size: 32px;
+        }
+
+        .service-info .open-hours li span{
+            font-size: 11px;
+        }
+
+        .service-info .open-hours li p{
+            font-size: 12px;
+        }
+
+
+    }  /* end  max widht 991px  */
+	
+
+   
+
+    @media (max-width: 767.98px) {
+
+       
+
+        .process-steps{
+        max-width: 100%;
+        margin-bottom: 10px;
+        }
+
+        .process-steps img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 20%;
+        }
+
+        #top-section .tx-box-1 h2{
+        font-size: 19px;
+        }
+
+        #top-section .tx-box-1 h4{
+            font-size: 14px;
+        }
+        .catagories-home li{
+            width: 30%;
+        }
+
+        .banner-call .call-left h4 {
+        font-size: 13px;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 17px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-size: 20px;
+        }
+
+        .info-left-side p{
+            font-size: 13px;
+        }
+
+        .info-left-side h2 {
+        font-size: 20px;
+        }
+
+        #location-hour .map-info{
+            height: 225px;
+            margin-bottom: 30px;
+        }
+
+        #buy-txt-section .repair-content p{
+            font-size: 13px;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 21px;
+        }
+
+        .section-how-it-work .how-steps p{
+            font-size: 13px;
+        }
+
+        .inner-how-it-work-1 .first-side-work .text-description {
+        font-size: 13px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 23px;
+        }
+
+        .logo-left li a img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 23px;
+        }
+
+        .product-list li h6 {
+        font-size: 12px;
+        }
+
+        .product-list li img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85px;
+        height: 85px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 15px;
+        }
+
+        #we-buy-section .title-box h2 {
+        font-size: 17px;
+        text-align: center;
+        }
+
+
+
+	}   /* /End responsive Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+	
+
+        #home-section .text-area h2 span{
+            font-size: 24px;
+        }
+
+        #top-section .tx-box-1 h4 {
+        font-size: 12px;
+        }
+
+        .catagories-home li {
+        width: 45%;
+        }
+
+        .banner-call .call-left h5 {
+        font-size: 13px;
+        }
+
+        .info-left-side h2 {
+        font-size: 17px;
+        }
+
+        .info-left-side h3 {
+        font-size: 15px;
+        }
+
+        .info-left-side h6{
+        font-size: 14px;
+        }
+
+        .banner-call .call-left h5 span {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-shadow: 0px 1px #000;
+        border:none;
+        padding-left:3px;
+        padding-right:3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-right:0;
+        margin-left:0;
+        }
+
+        .banner-call .call-left h5 span .fa {
+        margin-left: 4px;
+        margin-right: 7px;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 2px;
+        }
+
+        .banner-cover-top .text-headline h2 span {
+        font-size: 22px;
+        }
+
+        .banner-cover-top .text-headline h2 {
+        font-size: 17px;
+        }
+
+        #buy-txt-section .repair-content h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h2 {
+        font-size: 18px;
+        }
+
+        #we-buy-section .tx-box h4 {
+        font-size: 14px;
+        }
+
+        .product-list li img{
+            width: 65px;
+            height: 65px;
+        }
+
+        .product-list li {
+        width: 33%;
+        }
+
+        .title-box h2 img {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        width: 15%;
+        }
+
+        .section-how-it-work .box-text-6 h2 {
+        font-size: 19px;
+        }
+
+        .section-how-it-work .how-steps .headline{
+        font-size: 14px;
+        }
+
+        .demo-box{
+        background-size: cover;
+        }
+
+        .banner-call .call-left h5 span{
+        font-size: 14px;
+        }
+
+        .demo-box .box-content h3{
+            font-size: 19px;
+        }
+
+
+	} /* end mobile responsive media querie*/
+
