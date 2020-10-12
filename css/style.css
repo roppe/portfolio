@@ -23,8 +23,8 @@
     .main-navigation .logo-header{
     display: block;
     float: left;
-    width: 250px !important;height:58px;
-    background:url(../img/nyc-restaurant-logo.png) 0 0 no-repeat;
+    width: 70px !important;height:70px;
+    background:url(../img/petar-logo.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
 
@@ -572,7 +572,7 @@
 
    #back-to-top {
     position: fixed;
-    bottom: 40px;
+    bottom: 130px;
     right: 15px;
     z-index: 9999;
     width: 32px;
