@@ -2135,6 +2135,138 @@
         line-height: 20px;
     }
 
+    #new-top {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin-top: 83px;
+		background-color: #f7f8f8;
+		background-image: url(../img/blue-stars.jpg);
+
+		}
+
+		#new-top .new-info{
+				padding-left: 30px;
+				padding-top: 0;
+				padding-right:0;
+				padding-bottom: 25px;
+				/*background: linear-gradient(to right, #00d2ff, #3a7bd5);*/
+
+		}
+
+
+		#new-top .new-info h2{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		color: #00343d;
+		font-size: 20px;
+		text-align: left;
+		padding-bottom: 5px;
+		width: 100%;
+		margin-bottom: 5px;
+		margin-top:10px;
+            
+        }
+        
+        #new-top .new-info .info-web{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #00343d;
+            font-size: 13px;
+            text-align: left;
+            margin-top: 2px;
+            font-family: 'Poppins', sans-serif; 
+        }
+
+        #new-top .new-info h6{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #0bd8a2;
+            font-size: 14px;
+            text-align: left;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 0;
+    
+            }
+
+
+         #new-top .new-info p{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		color: #00343d;
+		font-size: 13px;
+		text-align: left;
+		margin-top: 2px;
+		font-family: 'Poppins', sans-serif;
+
+        }
+        
+        #new-top .new-info p .fa {
+            color: #fff;
+            margin-right: 13px;
+            font-size: 8px;
+            color: #0bd8a2;
+            vertical-align: 2px;
+            margin-left: 10px;
+        }
+
+        #new-top .new-info .view-website{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            background-color: #0bd8a2;
+            color: #ffffff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           display: block;
+            margin-top: 25px;
+            width:170px;
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        .gallery-image{
+          margin-bottom: 30px;
+        }
+
+        .blog .pic-name{
+            font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		color: #00343d;
+		font-size: 13px;
+		text-align: center;
+		margin-top: 2px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom:25px;
+        }
+ 
+
+      
+
+        .gallery-inner{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+
+        .carousel-control {
+            left: -50px;
+            font-size: 50px;
+            color:#b1b8b8; 
+            margin-right: 30px;
+    
+        }
+
+        .carousel-control:hover{
+            color: #0bd8a2;
+        }
+       
+      
+
    
 
 
@@ -2200,159 +2332,9 @@
     @media (max-width: 991px) {
         
        
-
-        #top-section .tx-box-1 h2{
-        font-size: 22px;
-        }
-
-        #top-section .tx-box-1 h4{
-        font-size: 17px;
-        }
-
-        .catagories-home li h6{
-        font-size: 13px;
-        }
-
-        .catagories-home li img{
-        width: 110px;height: 110px;
-        }
-
-        .banner-call .call-left h4{
-        font-size: 17px;
-        }
-
-        .banner-call .call-left h5{
-        font-size: 24px;
-        }
-
-        .banner-call .call-left h5 span{
-        font-size: 24px;
-        }
-
-        .info-left-side h2{
-            font-size: 22px;
-        }
-
-        .info-left-side h3{
-            font-size: 19px;
-        }
-
-        .sell-right-side img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        display: none;
-
-        }
-
-        .info-left-side{
-            border-top: 2px solid #eee;
-            padding-top: 20px;
-        }
-
-        .process-steps {
-        margin-bottom: 10px;
-        max-width: 230px;
-        background-color: #fafafa;
-        margin-right: 8px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 40px;
-        position: relative;
-        }
-
-        .process-steps h6{
-            font-size: 13px;
-        }
-
-        .process-steps p{
-            font-size: 11px;
-        }
-
-        .banner-cover-top .text-headline{
-            margin-top: 15px;
-        }
-
-        .banner-cover-top .text-headline h2 span{
-            font-size: 26px;
-        }
-
-        .banner-cover-top .text-headline h2{
-            font-size: 19px;
-        }
-
-
-        .gallery-content .pic-1{
-            width: 55%;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        #we-buy-section .tx-box h2{
-            font-size: 21px;
-        }
-
-        #we-buy-section .tx-box h4{
-            font-size: 17px;
-        }
-
-        #we-buy-section .title-box h2{
-            font-size: 19px;
-            text-align: center;
-        }
-
-        #we-buy-section .title-box p{
-            font-size: 13px;
-        }
-
-        .product-list li{
-            width: 25%;
-        }
-
-        .product-list li h6{
-            font-size: 14px;
-        }
-
-        #section-how-it-work .box-text-5 h2{
-            font-size: 24px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .headline-app{
-            font-size: 15px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .text-description{
-            font-size: 14px;
-        }
-
-        #buy-txt-section .repair-content h2{
-            font-size: 25px;
-        }
-
-        .demo-box .box-content p{
-            font-size: 16px;
-        }
-
-        .section-how-it-work .box-text-6 h2{
-            font-size: 24px;
-        }
-
-        #location-hour .map-info .t-1{
-            font-size: 15px;
-        }
-
-        #location-hour .map-info a span{
-            font-size: 32px;
-        }
-
-        .service-info .open-hours li span{
-            font-size: 11px;
-        }
-
-        .service-info .open-hours li p{
-            font-size: 12px;
+        .main-navigation {
+            background-color: #039BE5;
+          
         }
 
 
@@ -2365,103 +2347,10 @@
 
        
 
-        .process-steps{
-        max-width: 100%;
-        margin-bottom: 10px;
-        }
-
-        .process-steps img{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 20%;
-        }
-
-        #top-section .tx-box-1 h2{
-        font-size: 19px;
-        }
-
-        #top-section .tx-box-1 h4{
-            font-size: 14px;
-        }
-        .catagories-home li{
-            width: 30%;
-        }
-
-        .banner-call .call-left h4 {
-        font-size: 13px;
-        }
-
-        .banner-call .call-left h5 {
-        font-size: 17px;
-        }
-
-        .banner-call .call-left h5 span {
-        font-size: 20px;
-        }
-
-        .info-left-side p{
-            font-size: 13px;
-        }
-
-        .info-left-side h2 {
-        font-size: 20px;
-        }
-
-        #location-hour .map-info{
-            height: 225px;
-            margin-bottom: 30px;
-        }
-
-        #buy-txt-section .repair-content p{
-            font-size: 13px;
-        }
-
-        .section-how-it-work .box-text-6 h2 {
-        font-size: 21px;
-        }
-
-        .section-how-it-work .how-steps p{
-            font-size: 13px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .text-description {
-        font-size: 13px;
-        }
-
-        #buy-txt-section .repair-content h2 {
-        font-size: 23px;
-        }
-
-        .logo-left li a img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .demo-box .box-content h3{
-            font-size: 23px;
-        }
-
-        .product-list li h6 {
-        font-size: 12px;
-        }
-
-        .product-list li img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85px;
-        height: 85px;
-        }
-
-        #we-buy-section .tx-box h4 {
-        font-size: 15px;
-        }
-
-        #we-buy-section .title-box h2 {
-        font-size: 17px;
-        text-align: center;
+       
+        .main-navigation {
+            background-color: #069455;
+          
         }
 
 
@@ -2476,116 +2365,184 @@
 	
 	@media (max-width: 575.98px) { 
 	
-
-        #home-section .text-area h2 span{
-            font-size: 24px;
+             
+        .main-navigation {
+           
+          
         }
 
-        #top-section .tx-box-1 h4 {
-        font-size: 12px;
+        .contact-informations h2{
+            font-size: 27px;
         }
 
-        .catagories-home li {
-        width: 45%;
+        .contact-informations h6 {
+            font-family: "Open Sans";
+            font-weight: 600;
+            color: #00343d;
+            font-size: 13px;
+            text-align: left;
+            padding-left:10px !important;
         }
 
-        .banner-call .call-left h5 {
-        font-size: 13px;
+        .petar-img{
+            display: none;
         }
 
-        .info-left-side h2 {
-        font-size: 17px;
+        #about h6 {
+            
+            font-size: 13px;
+           
         }
 
-        .info-left-side h3 {
-        font-size: 15px;
+        #my-services h3 {
+            font-size: 25px;
         }
 
-        .info-left-side h6{
-        font-size: 14px;
+        .inner-box h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left:0;
+            width: 90%;
+          
         }
 
-        .banner-call .call-left h5 span {
-        font-family: 'Open Sans';
-        font-weight: 700;
-        color: #ffffff;
-        font-size: 16px;
-        margin-top: 10px;
-        letter-spacing: 1px;
-        text-align: center;
-        text-shadow: 0px 1px #000;
-        border:none;
-        padding-left:3px;
-        padding-right:3px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 5px;
-        margin-right:0;
-        margin-left:0;
+        .inner-box .headline {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: #00343d;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
 
-        .banner-call .call-left h5 span .fa {
-        margin-left: 4px;
-        margin-right: 7px;
-        font-size: 20px;
-        color: #fff;
-        margin-top: 2px;
+        .inner-box .text-description{
+            font-size: 13px;   
         }
 
-        .banner-cover-top .text-headline h2 span {
-        font-size: 22px;
+        .inner-box h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #00343d;
+            font-size: 14px;
+            text-align: left;
+            margin-left: 15px;
         }
 
-        .banner-cover-top .text-headline h2 {
-        font-size: 17px;
+        #my-services .design-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
         }
 
-        #buy-txt-section .repair-content h2 {
-        font-size: 18px;
+        #my-process h3{
+            font-size: 25px;
         }
 
-        #we-buy-section .tx-box h2 {
-        font-size: 18px;
+        #my-process h5 {
+            font-size: 14px;
         }
 
-        #we-buy-section .tx-box h4 {
-        font-size: 14px;
+        #our-clients h3{
+            font-size: 25px;
         }
 
-        .product-list li img{
-            width: 65px;
-            height: 65px;
+        #our-clients h5{
+            font-size: 14px;  
         }
 
-        .product-list li {
-        width: 33%;
+        
+
+        .company-list {
+            display: block;
+            padding-left: 20px;
+            margin-top: 40px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .title-box h2 img {
-        margin-right: 10px;
-        margin-bottom: 5px;
-        width: 15%;
+        #faq-section h3{
+            font-size: 25px;
+            text-align: center;
         }
 
-        .section-how-it-work .box-text-6 h2 {
-        font-size: 19px;
+        #faq-section h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            color: #00343d;
+            text-align: center;
         }
 
-        .section-how-it-work .how-steps .headline{
-        font-size: 14px;
+        .webpro-faq .faq-header .btn{
+            font-size: 12px;
         }
 
-        .demo-box{
-        background-size: cover;
+        .webpro-faq .faq-header .btn .fa {
+            float: left;
+            color: #d0cfcf;
+            display: block;
+            padding-right: 5px;
+            padding-top: 2px;
         }
 
-        .banner-call .call-left h5 span{
-        font-size: 14px;
+        .webpro-faq .faq-header{
+            padding-right: 0;
         }
 
-        .demo-box .box-content h3{
-            font-size: 19px;
+        .webpro-faq .card-body {
+            background-color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #00343d;
+            font-size: 12px;
         }
+
+        #contact h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+        }
+
+        #contact h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 70px;
+            text-align: center;
+        }
+
+        .info-contact {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .info-contact a {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 17px;
+            color: #fff;
+        }
+
+        .info-contact h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            color: #fff;
+        }
+
+
+
 
 
 	} /* end mobile responsive media querie*/
