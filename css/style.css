@@ -2264,7 +2264,89 @@
         .carousel-control:hover{
             color: #0bd8a2;
         }
+    
+
+        #my-work{
+            padding-top: 45px;
+            padding-bottom: 45px;
+            border-top:1px solid #eee;
        
+        }
+    
+        #my-work h5{
+              font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #00343d;
+            margin-bottom: 50px;
+            text-align: center;
+            width: 100%;
+          
+        }
+    
+        #my-work h3{
+              font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 34px;
+            color: #00343d;
+            width: 100%;
+            text-transform: 2px;
+            text-align: center;
+          
+        }
+
+
+        #my-work .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color: #f3f3f3;
+            background-color: transparent;
+            border-color:  #0bd8a2;
+            border-bottom: 2px solid !important;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #my-work .nav-tabs .tb-link {
+            border: 1px solid transparent;
+            border-top-left-radius: .25rem;
+            border-top-right-radius: .25rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #00343d;
+            font-size: 15px;
+            letter-spacing: 1px !important;
+            margin-right: 5px;
+            margin-top: 10px;
+            text-align: center;
+        }
+             
+       
+           #my-work .tab-pane{
+           color: #131f28;
+           }
+       
+
+           .link-portfolio{
+               position: relative;
+               margin-top: 40px;
+               display: block;
+           }
+
+           .link-portfolio img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto  ;
+           }
+
+           .link-portfolio p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            color: #00343d;
+            width: 100%;
+            text-transform: 2px;
+            text-align: center; 
+            margin-top: 20px;
+           }
+    
       
 
    
