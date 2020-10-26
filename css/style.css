@@ -16,7 +16,7 @@
     .navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
     display: block !important;
-    color: #e69906!important;
+        color: #0bd8a2!important;
     border:0;
     }
 
@@ -255,8 +255,8 @@
         }
     
         .contact-informations h6{
-        font-family: "Open Sans";
-        font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        font-weight: 500;
         color: #00343d;
         font-size: 15px;
         text-align: left;
@@ -271,6 +271,28 @@
         color: #0bd8a2;
         vertical-align: 2px;
         }
+
+        .contact-informations h5{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #00343d;
+            font-size: 15px;
+            text-align: left;
+            padding-left: 20px;
+            margin-top: 30px;
+           
+            }
+
+            .contact-informations h5 a{
+                    background-color: #0bd8a2;
+                    color: #fff;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    padding-left: 20px;padding-right: 20px;
+                    text-align: center;
+                    margin-left: 15px;
+                    border-radius: 5px;
+            }
     
     
         .contact-informations  h3{
@@ -2039,10 +2061,10 @@
         #fs-frm input:focus,
         #fs-frm select:focus,
         #fs-frm textarea:focus {
-        background-color:transparent;
+  
         outline-style: solid;
         outline-width: thin;
-        outline-color::#069455;
+  
         outline-offset: -1px;
         }
         #fs-frm [type="text"],
@@ -2348,7 +2370,54 @@
            }
     
       
+        #btnview{
+            background-color: #0bd8a2;
+            color: #fff;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+            margin-left: 15px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            margin-bottom: 50px;
+        }
 
+        #showgallery{
+            display: none;
+        }
+
+        
+        #showgallery .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color: #f3f3f3;
+            background-color: transparent;
+            border-color:  #0bd8a2;
+            border-bottom: 2px solid !important;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #showgallery .nav-tabs .tb-link {
+            border: 1px solid transparent;
+            border-top-left-radius: .25rem;
+            border-top-right-radius: .25rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #00343d;
+            font-size: 15px;
+            letter-spacing: 1px !important;
+            margin-right: 5px;
+            margin-top: 10px;
+            text-align: center;
+        }
+             
+       
+        #showgallery .tab-pane{
+           color: #131f28;
+           }
    
 
 
@@ -2415,7 +2484,7 @@
         
        
         .main-navigation {
-            background-color: #039BE5;
+         
           
         }
 
@@ -2431,8 +2500,98 @@
 
        
         .main-navigation {
-            background-color: #069455;
+        
           
+        }
+
+        .petar-img{
+            display: none;
+        }
+
+        .contact-informations h6{
+            font-size: 13px;
+        }
+
+        .contact-informations h5 a {
+            background-color: #0bd8a2;
+            color: #fff;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            margin-left: 15px;
+            border-radius: 5px;
+            display: block;
+            margin-top: 20px;
+            width: 200px;
+        }
+
+        #my-process h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #00343d;
+            width: 100%;
+            text-transform: 2px;
+            text-align: center;
+        }
+
+        #my-process h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: #00343d;
+            margin-bottom: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #our-clients h3 {
+            font-size: 24px;
+        }
+
+        #our-clients h5{
+            font-size: 14px;
+        }
+
+        .impression-user {
+          
+            height: 240px;
+            box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+        }
+
+        #my-work h3 {
+           
+            font-size: 24px;
+            color: #00343d;
+          
+        }
+
+        #faq-section h3 {
+            font-size: 24px;
+        }
+
+        #contact h3 {
+            font-size: 24px;
+        }
+
+        .info-contact {
+            margin-top: 20px;
+        }
+
+        .inner-box h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            background-color: #0bd8a2;
+            color: #ffffff;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 20px;
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
 
@@ -2449,12 +2608,32 @@
 	
              
         .main-navigation {
-           
           
+          
+        }
+
+        #my-services .design-img {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
         }
 
         .contact-informations h2{
             font-size: 27px;
+        }
+
+        #home-section {
+            background: url(../img/square-pattern.jpg) no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            position: relative;
+            background-repeat: no-repeat;
+            padding: 160px 0 10px;
+            background-color: #fff;
+            height: 655px;
         }
 
         .contact-informations h6 {
