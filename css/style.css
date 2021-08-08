@@ -31,7 +31,7 @@
     }
 
     .main-navigation{
-    background-color: #0F123D;
+    background-color:transparent;
     display: block;
     padding-left: 0;padding-right: 0;
     padding-top: 0;
@@ -42,7 +42,7 @@
     .main-navigation .nav-list .nav-link{
         font-family: 'Open Sans', sans-serif;
     font-weight:600;
-    color:#fff;
+    color:#0bd8a2;
 
     font-size: 13px;
     letter-spacing: 1px !important;
@@ -214,6 +214,41 @@
     color: #313433;
     font-weight: 700;
     }
+
+    
+    .shrink {
+    display: block;
+    width: 100%;
+    }
+
+
+    .shrink  .shrink {
+    display: none;
+    }
+
+    .shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 65px !important;
+    background-color: #0F123D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+
+
+
+.shrink .fixed-top {
+
+}
+
+.shrink .nav-top{
+display: none;
+}
+
+
 
     /* Slider */
 

@@ -24,7 +24,7 @@
 
 		<title>Petar Paponjak ::: Graphic & Web Designer</title>
 
-		<link rel="icon" type="image/png" src="img/favicon.ico">   >
+		<link rel="icon" type="image/png" src="img/favicon.ico">   
 
 
 
@@ -43,7 +43,7 @@
 
 		<!-- Navigation on Top -->
  
-		 <nav class="navbar navbar-expand-lg fixed-top main-navigation" id="mainNav">
+		 <nav class="navbar navbar-expand-lg fixed-top main-navigation shrink" id="mainNav">
 		 
 
 			<div class="container-fluid">
@@ -1019,6 +1019,18 @@
 			})();
 		</script>
 		<!--End of Tawk.to Script-->
+
+		<script>
+            $(document).on("scroll", function(){
+
+            if ($(document).scrollTop() > 250){
+                $(".main-navigation").addClass("shrink");
+            } else {
+                $(".main-navigation").removeClass("shrink");
+            }
+
+      });
+    </script>
 
 		 
 
