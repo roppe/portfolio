@@ -2578,6 +2578,31 @@ display: none;
            color: #131f28;
            }
    
+        .inner-work .link-portfolio p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+          color: #131f28;
+        width: 100%;
+        text-transform: 2px;
+        text-align: center;
+        margin-top: 20px;
+        }
+
+        .inner-work .nav-tabs .tb-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #131f28  !important;
+        font-size: 15px;
+        letter-spacing: 1px !important;
+        margin-right: 5px;
+        margin-top: 10px;
+        text-align: center;
+
+        }
 
 
 
@@ -2815,7 +2840,11 @@ display: none;
         }
 
         #my-services h3 {
-            font-size: 25px;
+            font-size: 20px;
+        }
+
+        #my-work h5{
+            font-size: 14px;
         }
 
         .inner-box h5 {
@@ -2861,7 +2890,7 @@ display: none;
         }
 
         #my-process h3{
-            font-size: 25px;
+            font-size: 20px;
         }
 
         #my-process h5 {
@@ -2869,7 +2898,7 @@ display: none;
         }
 
         #our-clients h3{
-            font-size: 25px;
+            font-size: 21px;
         }
 
         #our-clients h5{
@@ -2888,8 +2917,12 @@ display: none;
         }
 
         #faq-section h3{
-            font-size: 25px;
+            font-size: 20px;
             text-align: center;
+        }
+
+        .webpro-faq .card-body h6{
+            font-size: 13px;
         }
 
         #faq-section h5 {
@@ -2927,7 +2960,7 @@ display: none;
         #contact h3 {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
-            font-size: 25px;
+            font-size: 21px;
             color: #fff;
             width: 100%;
             text-align: center;
@@ -2942,9 +2975,16 @@ display: none;
             text-align: center;
         }
 
+        #contact{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         .info-contact {
             margin-bottom: 20px;
             margin-top: 20px;
+            padding-left: 0;
+            padding-right: 0;
         }
 
         .info-contact a {
@@ -2952,6 +2992,14 @@ display: none;
             font-weight: 600;
             font-size: 17px;
             color: #fff;
+        }
+
+        .info-contact a img{
+            width: 35px;
+        }
+
+        .info-contact ul{
+            padding-left: 0;
         }
 
         .info-contact h2 {
@@ -2968,7 +3016,7 @@ display: none;
         #why-me h3 {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
-            font-size: 25px;
+            font-size: 20px;
             color: #fff;
         
         }
@@ -2977,6 +3025,9 @@ display: none;
             font-size: 16px;
         }
 
+        #home-section{
+            background:#0F123D;
+        }
 
 
 
