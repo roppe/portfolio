@@ -1470,10 +1470,36 @@ display: none;
     /* PETAR NEW WEBSITE CSS DESIGN  */
 
 
+    .services-content{
+
+        padding-bottom:0px;
+    }
+
+    .ser-navigation {
+    left: 0;
+    top: auto;
+    bottom:-70px;
+
+    }
+
+    .ser-navigation li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    }
+
+    .ser-navigation .active {
+    background: #0bd8a2;
+    }
+
+
+
+
     #my-services{
-        padding-top: 35px;
-        padding-bottom: 35px;
-        background-color: #0F123D;
+        padding-top: 70px;
+        padding-bottom: 130px;
+        background-color: #0c0e32;
     }
 
 
@@ -1523,19 +1549,18 @@ display: none;
     color: #fff;
     font-size: 15px;
     text-align: left;
-    margin-bottom: 15px;
-    line-height: 22px;
+    margin-bottom: 30px;
+    line-height: 24px;
     }
     .inner-box h5{
         font-family: 'Poppins', sans-serif;
         font-weight: 500;  
-        font-size: 13px;
-        background-color: #0bd8a2;
-        color: #ffffff;
-        padding-top: 6px;padding-bottom: 6px;
-        padding-left: 20px;
-        width: 50%;
-        border-radius: 10px;
+        font-size: 14px;
+        color: #0bd8a2;
+        padding-top: 6px;padding-bottom: 0px;
+      
+      
+       
     }
 
     .inner-box .headline{
@@ -1555,6 +1580,8 @@ display: none;
     font-size:15px;
     text-align: left;
     margin-left: 15px;
+    line-height: 24px;
+    margin-bottom: 2px;
   
     }
 
@@ -1568,7 +1595,7 @@ display: none;
     /* MY PROCESS SECTION DESIGN */
 
     #my-process{
-        padding-top: 45px;
+        padding-top: 100px;
         padding-bottom: 45px;
   
         background-color: #0F123D;
@@ -2108,9 +2135,9 @@ display: none;
     /* Contact Us Section */
 
     #contact{
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom: 70px;
-    background-color:#0F123D;
+    background-color:#0c0e32;
 
     }
 
@@ -2456,7 +2483,7 @@ display: none;
 
         #my-work{
             padding-top: 45px;
-            padding-bottom: 45px;
+            padding-bottom:70px;
            
             background-color: #0F123D;
        
@@ -2522,7 +2549,8 @@ display: none;
            .link-portfolio img{
             display: block;
             margin-left: auto;
-            margin-right: auto  ;
+            margin-right: auto ;
+            border-radius: 8px;
            }
 
            .link-portfolio p{
@@ -2776,14 +2804,7 @@ display: none;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
             font-size: 13px;
-            background-color: #0bd8a2;
-            color: #ffffff;
-            padding-top: 6px;
-            padding-bottom: 6px;
-            padding-left: 20px;
-            width: 100%;
-            border-radius: 10px;
-            margin-top: 20px;
+           
         }
 
 
@@ -2856,14 +2877,11 @@ display: none;
         }
 
         .inner-box h5 {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 500;
+            
             font-size: 13px;
             text-align: center;
-            padding-top: 6px;
             padding-bottom: 6px;
-            padding-left:0;
-            width: 90%;
+            padding-left: 0;
           
         }
 
@@ -2885,9 +2903,9 @@ display: none;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
             color: #fff;
-            font-size: 14px;
+            font-size: 13px;
             text-align: left;
-            margin-left: 15px;
+            margin-left: 0px;
         }
 
         #my-services .design-img {
