@@ -2094,7 +2094,7 @@ display: none;
         }
         .add-txt img{
             width:40px;
-            margin-top: 20px;
+            margin-top: 32px;
             display: block;
             float: left;
             margin-right: 15px;
@@ -2195,7 +2195,7 @@ display: none;
     }
 
     .info-contact ul{
-        padding-left: 20px;
+        padding-left: 0px;
         display: block;
         width:100%;
         margin-top:5px;
@@ -2488,6 +2488,10 @@ display: none;
             background-color: #0F123D;
        
         }
+
+        .nav-tabs {
+    border-bottom: 1px solid #191d56;
+}
     
         #my-work h5{
               font-family: 'Poppins', sans-serif;
@@ -2821,8 +2825,33 @@ display: none;
 	
              
         .main-navigation {
+          background-color: #0F123D;
           
-          
+        }
+
+        .nav-tabs {
+    border-bottom: 0;
+}
+
+        .add-txt img {
+        width: 27px;
+        margin-top: -5px;
+        display: block;
+        float: left;
+        margin-right: 15px;
+        }
+
+            .info-contact a .dot {
+        
+        margin-top: 0px;
+        }
+
+        .contact-informations h5{
+            padding-left: 0;
+        }
+
+        .contact-informations h5 a{
+            margin-left: 0;
         }
 
         #my-services .design-img {
@@ -2909,10 +2938,11 @@ display: none;
         }
 
         #my-services .design-img {
-            display: block;
+            display: none;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 20px;
+
         }
 
         #my-process h3{
