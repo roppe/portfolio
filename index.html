@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z54DK7ZNBK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z54DK7ZNBK');
+</script>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Petar Paponjak - UI/UX & Web Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main-style.css">
+
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#home-section" class="nav-logo"><img src="img/petar-green-logo.svg" alt="logo"></a>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#about-section">About me</a></li>
+    <li><a href="#my-work">Portfolio</a></li>
+    <li><a href="#my-services">Services</a></li>
+    <li><a href="#my-process">Process</a></li>
+    <li><a href="#our-clients">Clients</a></li>
+    <li><a href="cv-petar.pdf" target="_blank">CV</a></li>
+    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+  </ul>
+</nav>
+
+<!-- MOBILE NAV OVERLAY -->
+<div class="nav-overlay" id="nav-overlay"></div>
+
+<!-- MOBILE NAV DRAWER -->
+<div class="nav-mobile" id="nav-mobile">
+  <button class="nav-mobile-close" id="nav-mobile-close">✕</button>
+  <a href="#about-section">About Me</a>
+  <a href="#my-work">Portfolio</a>
+  <a href="#my-services">Services</a>
+  <a href="#my-process">Process</a>
+  <a href="#our-clients">Clients</a>
+  <a href="cv-petar.pdf" target="_blank">CV</a>
+  <a href="#contact" class="nav-cta">Get in Touch</a>
+</div>
+
+<!-- HERO -->
+<section id="home-section" style="padding:0; display:grid; grid-template-columns:1fr 1fr; min-height:100vh;">
+  <div class="hero-left">
+    <div class="hero-tag">UI/UX ·Product · Web · Graphic Designer</div>
+    <h1 class="hero-name">Hello,<br>I'm <em>Petar</em></h1>
+    <p class="hero-desc">An experienced Designer with expertise across UX/UI, product, web, and visual design, focused on creating clear, scalable, and engaging digital products and web experiences.</p>
+    <div class="hero-actions">
+      <a href="#my-work" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Get in Touch</a>
+    </div>
+
+  </div>
+  <div class="hero-right">
+    <div class="hero-grid-bg"><canvas id="hero-grid-canvas"></canvas></div>
+    
+   
+    <img src="img/petar-slika-profilna.png" alt="slika" class="profile-picture">
+
+
+ 
+    <!-- <div class="hero-float-card">
+      <div class="float-label">Years Experience</div>
+      <div class="float-value">10<span>+</span></div>
+    </div>
+    <div class="hero-float-card">
+      <div class="float-label">Projects Delivered</div>
+      <div class="float-value">60<span>+</span></div>
+    </div>-->
+    
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-divider">
+  <div class="marquee-track">
+    <span class="marquee-item">UI/UX Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Product Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Web Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Front-end Development <span class="dot">✦</span></span>
+    <span class="marquee-item">Graphic Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Brand Identity <span class="dot">✦</span></span>
+    <span class="marquee-item">Figma & Adobe Suite <span class="dot">✦</span></span>
+    <span class="marquee-item">UI/UX Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Product Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Web Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Front-end Development <span class="dot">✦</span></span>
+    <span class="marquee-item">Graphic Design <span class="dot">✦</span></span>
+    <span class="marquee-item">Brand Identity <span class="dot">✦</span></span>
+    <span class="marquee-item">Figma & Adobe Suite <span class="dot">✦</span></span>
+  </div>
+</div>
+
+<!-- WHO I AM -->
+<div id="about-section" style="background: var(--surface); padding: 80px 60px; border-bottom: 1px solid var(--border);">
+  <div style="max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: start;" class="reveal">
+    <div>
+      <div class="section-eyebrow">About Me</div>
+      <div style="font-family: 'Cormorant Garamond', serif; font-size: 48px; font-weight: 300; line-height: 1.05;">Designer<br><em>& Builder</em></div>
+    </div>
+    <div style="padding-top: 8px;">
+      <p style="font-size: 14px; color: var(--text-muted); line-height: 1.9; margin-bottom: 20px;">I'm a UI/UX graphic and web designer based in Serbia, with almost 10 years of experience designing digital products, platforms,websites and visual assets. I've worked with marketing agencies, and product teams, both in agency environments and as a long-term freelance partner.I also have experience in project coordination, supporting development workflows, organizing tasks for teams, and mentoring junior designers.</p>
+      <p style="font-size: 14px; color: var(--text-muted); line-height: 1.9; margin-bottom: 20px;">My work covers UX/UI,product,web, and visual design, with hands-on experience taking projects from early concepts and wireframes through to final UI, front-end implementation, and real-world iteration. Over the last four years, I’ve focused heavily on complex platforms and applications, including cybersecurity products.</p>
+      
+      <p style="font-size: 14px; color: var(--text-muted); line-height: 1.9; margin-bottom: 20px;">Throughout my career, I’ve worked closely with cross-functional teams including developers, product managers, copywriters, marketers, SEO specialists, and PPC teams. This has given me a strong understanding of how design connects with communication, acquisition, and overall business performance.</p>
+      
+      <p style="font-size: 14px; color: var(--text-muted); line-height: 1.9;">With a background in front-end development, I design solutions that are practical to build and easy to maintain. I approach every project as a problem to be solved, I combine design thinking with technical and marketing awareness to deliver solutions that are not only visually strong, but also functional, clear, and aligned with real business outcomes.</p>
+    </div>
+  </div>
+</div>
+
+<!-- WHAT YOU MIGHT BE LOOKING FOR -->
+<div style="background: var(--bg); padding: 80px 60px; border-bottom: 1px solid var(--border);">
+  <div class="section-eyebrow reveal">You might be looking for</div>
+  <div class="questions-grid reveal">
+    <div class="question-item">
+      <div class="question-num">01</div>
+      <div class="question-text">A designer with years of experience across UX/UI, web design, & digital products</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">02</div>
+      <div class="question-text">Someone who can own the full design process - from research and wireframes to final UI and launch
+</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">03</div>
+      <div class="question-text">A person who understands both design & development and can bridge the gap between the two
+</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">04</div>
+      <div class="question-text">A problem-solver who turns complex ideas into clear, usable, and scalable solutions</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">05</div>
+      <div class="question-text">A creative problem-solver with experience collaborating across design, development, product, & marketing teams</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">06</div>
+      <div class="question-text">Someone you can trust to get the job done - on time, on brief, and to a high standard.</div>
+    </div>
+    <div class="question-item">
+      <div class="question-num">07</div>
+      <div class="question-text">Professional who combines UX thinking with business and marketing goals & drive  results</div>
+    </div>
+    <div class="question-item" style="background: rgba(200,240,96,0.05); border-color: rgba(200,240,96,0.2);">
+      <div class="question-num">→</div>
+      <div class="question-text" style="color: var(--accent); font-family: 'Syne', sans-serif; font-weight: 700;">You're in the right place.</div>
+    </div>
+  </div>
+</div>
+
+<!-- PORTFOLIO -->
+<section id="my-work">
+  <div class="portfolio-header reveal">
+    <div>
+      <div class="section-eyebrow">Selected Work</div>
+      <h2 class="section-title">My <em>Portfolio</em></h2>
+      <p class="section-subtitle">Design doesn't have to be hard. Here's a selection of projects spanning websites, apps, branding, and social.</p>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-tab" data-cat="web"    onclick="filterPortfolio('web', this)">Websites</button>
+      <button class="filter-tab" data-cat="app"    onclick="filterPortfolio('app', this)">App &amp; Product</button>
+      <button class="filter-tab" data-cat="logo"   onclick="filterPortfolio('logo', this)">Logo</button>
+      <button class="filter-tab" data-cat="social" onclick="filterPortfolio('social', this)">Social Media</button>
+    </div>
+  </div>
+  <div class="portfolio-grid" id="portfolio-grid">
+    <!-- Web Sites-->
+      
+    <a href="website-17.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-bso-site.jpg" alt="BSO Website">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">BSO Website</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-16.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-tax-website.jpg" alt="Tax Software App">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Redesign</div>
+          <div class="portfolio-name">Tax Software App</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-1.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-1.jpg" alt="Home Remodeling Company">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Home Remodeling Company</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-2.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-2.jpg" alt="NYC Auto Towing Website">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">NYC Auto Towing</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-8.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-8.jpg" alt="Watch Shop Pages Design">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Watch Shop</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-5.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-5.jpg" alt="Brooklyn Tub Refinishing">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Brooklyn Tub Refinishing</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-6.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-6.jpg" alt="NYC iPad Repair">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">NYC iPad Repair</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-7.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-7.jpg" alt="Startup Website">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Startup Website</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-9.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-9.jpg" alt="Design Concept">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Design Concept</div>
+          <div class="portfolio-name">Website Concept</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-10.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-10.jpg" alt="Insurance Website Redesign">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Redesign</div>
+          <div class="portfolio-name">Insurance Website</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-11.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-11.jpg" alt="Queens Eye Center Redesign">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Redesign</div>
+          <div class="portfolio-name">Queens Eye Center</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-12.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-12.jpg" alt="Moving Company Website Design">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Moving Company</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-13.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-13.jpg" alt="Pet Grooming Site Redesign">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Redesign</div>
+          <div class="portfolio-name">Pet Grooming</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-14.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-14.jpg" alt="Furniture Shop Design">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Furniture Shop</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-15.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-limo-web.jpg" alt="Limo Services Website">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">Limo Services</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="website-3.html" class="portfolio-item" data-cat="web" target="_blank">
+      <img src="img/thumb-web-3.jpg" alt="NYC Restaurant Equipment">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Website Design</div>
+          <div class="portfolio-name">NYC Restaurant Equipment</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+    </a>
+
+
+    <!-- Apps and product -->
+    <a href="app-6.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-6.png" alt="HackersRange Admin Side">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Cybersecurity LMS Platform</div>
+          <div class="portfolio-name">HackersRange (Admin Side)</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-7.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-7.png" alt="HackersRange Student Side">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Cybersecurity LMS Platform</div>
+          <div class="portfolio-name">HackersRange (Student Side)</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-8.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-8.png" alt="Becyber Intelligence & Awareness">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Cybersecurity Platform</div>
+          <div class="portfolio-name">Becyber</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-9.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-9.png" alt="Suite">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Cyber Threat Intelligence Platform</div>
+          <div class="portfolio-name">HE Suite</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-10.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-10.png" alt="Intelligence">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Product Design</div>
+          <div class="portfolio-name">HE Intelligence</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-11.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-11.png" alt="BSOAcademy">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Learning Platform</div>
+          <div class="portfolio-name">BSOAcademy</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-5.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-5.jpg" alt="Healthcare Medical App">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Mobile App Design</div>
+          <div class="portfolio-name">Healthcare Medical App</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-1.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-1.jpg" alt="Smart Home App Concept">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">App Concept</div>
+          <div class="portfolio-name">Smart Home App</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-2.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-2.jpg" alt="Parking App Design">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Mobile App Design</div>
+          <div class="portfolio-name">Parking App</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-3.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-3.jpg" alt="Video Maker App Software">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Software Design</div>
+          <div class="portfolio-name">Video Maker App</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+  <a href="app-4.html" class="portfolio-item" data-cat="app" target="_blank">
+      <img src="img/thumb-app-4.jpg" alt="Website Video Maker Pages">
+      <div class="portfolio-label">
+          <div class="portfolio-cat">Landing Page Design</div>
+          <div class="portfolio-name">Video Maker Pages</div>
+      </div>
+      <div class="portfolio-arrow">↗</div>
+  </a>
+
+
+    <!-- Logos and social media  -->
+        
+        <a href="logo-4.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-4.jpg" alt="Y Real Estate Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Y Real Estate</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-1.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-1.jpg" alt="Eco Company Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Eco Company</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-2.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-2.jpg" alt="Marketing Company Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Marketing Company</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-5.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-5.jpg" alt="Medical Company Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Medical Company</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-3.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-3.jpg" alt="Law Company Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Law Company</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-6.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-6.jpg" alt="Stationery Design">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Brand Identity</div>
+            <div class="portfolio-name">Stationery Design</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-7.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-7.jpg" alt="CBD Shop Logo Redesign">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Redesign</div>
+            <div class="portfolio-name">CBD Shop</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="logo-8.html" class="portfolio-item" data-cat="logo" target="_blank">
+        <img src="img/thumb-logo-8.jpg" alt="Marketing Agency Logo">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Logo Design</div>
+            <div class="portfolio-name">Marketing Agency</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+
+      <!--Social media   -->
+
+          <a href="social-1.html" class="portfolio-item" data-cat="social" target="_blank">
+        <img src="img/thumb-social-1.jpg" alt="Instagram Design">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Social Media Design</div>
+            <div class="portfolio-name">Instagram Design</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="social-2.html" class="portfolio-item" data-cat="social" target="_blank">
+        <img src="img/thumb-social-2.jpg" alt="Social Media Banners">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Social Media Design</div>
+            <div class="portfolio-name">Social Media Banners</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="social-3.html" class="portfolio-item" data-cat="social" target="_blank">
+        <img src="img/thumb-social-3.jpg" alt="Gift Shop Banners">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Banner Design</div>
+            <div class="portfolio-name">Gift Shop Banners</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+    <a href="social-4.html" class="portfolio-item" data-cat="social" target="_blank">
+        <img src="img/thumb-social-4.jpg" alt="Banners">
+        <div class="portfolio-label">
+            <div class="portfolio-cat">Banner Design</div>
+            <div class="portfolio-name">Social Banners</div>
+        </div>
+        <div class="portfolio-arrow">↗</div>
+    </a>
+
+
+  </div>
+
+  <div class="portfolio-load-wrap">
+    <button id="portfolio-toggle-btn" class="portfolio-load-btn" data-state="collapsed" data-cat="app" style="display:none;">Load More</button>
+  </div>
+
+</section>
+
+<!-- SERVICES -->
+<section id="my-services">
+  <div class="section-eyebrow reveal">What I Do</div>
+  <h2 class="section-title reveal">My <em>Services</em></h2>
+  <p class="section-subtitle reveal">Blending UX/UI, web, product, & visual design with marketing awareness to create effective digital experiences.</p>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <div class="service-title">UI/UX Design</div>
+      <p class="service-desc">Clear, usable, and scalable interfaces for digital products, platforms, and applications. Focused on solving real user and business problems through thoughtful UX and strong visual hierarchy.</p>
+      <ul class="service-list">
+        <li>End-to-end UX/UI for platforms & applications</li>
+        <li>User research, flows & wireframes</li>
+        <li>High-fidelity UI in Figma</li>
+        <li>Design systems & reusable components</li>
+        <li>Design alignment with development and product requirements</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <div class="service-title">Web Design</div>
+      <p class="service-desc">Modern, user-focused websites combining strong visual design with structured content, clear navigation, and business goals. With front-end know-how, I design what's actually buildable.</p>
+      <ul class="service-list">
+        <li>Website & landing page,design</li>
+        <li>Wireframes to final responsive web UI</li>
+        <li>Redesigning existing websites</li>
+        <li>Desktop, tablet, and mobile responsive</li>
+        <li>Marketing pages,site content, & emails</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <div class="service-title">Front-end Dev</div>
+      <p class="service-desc">Clean, responsive, and maintainable front-end solutions that bring designs to life accurately and efficiently. Bridging the gap between visual intent and technical execution.</p>
+      <ul class="service-list">
+        <li>HTML, CSS, Bootstrap, & JavaScript for interactive functionality</li>
+        <li>WordPress design/dev & maintenance</li>
+        <li>Figma / PSD to working interfaces</li>
+        <li>UI fixes, SEO & performance</li>
+        <li>AI-assisted development tools</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <div class="service-title">Graphic Design</div>
+      <p class="service-desc">Clear, consistent, and recognizable visual systems supporting brands across digital and print. Strong layout, typography, and visual hierarchy ensuring designs communicate effectively.</p>
+      <ul class="service-list">
+        <li>Brand identity & visual systems</li>
+        <li>Digital and print materials</li>
+        <li>Marketing assets & presentations</li>
+        <li>Logos, icons & brand elements</li>
+        <li>Tools: Figma, Adobe Creative Suite</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="my-process">
+  <div class="section-eyebrow reveal">How I Work</div>
+  <h2 class="section-title reveal">My <em>Process</em></h2>
+  <p class="section-subtitle reveal">A clear process turns ideas into usable, effective solutions — step by step, from problem to product.</p>
+  <div class="process-steps reveal">
+    <div class="process-step">
+      <div class="process-step-num">01</div>
+      <div class="process-step-title">Discover & Define</div>
+      <p class="process-step-desc">I start by understanding the project goals, target users, and business context. I review requirements, research existing solutions, and help define a clear direction for the project before execution begins.</p>
+    </div>
+    <div class="process-step">
+      <div class="process-step-num">02</div>
+      <div class="process-step-title">Structure & Create</div>
+      <p class="process-step-desc">I shape the solution through UX structure, content flow, wireframes, and visual design. This phase focuses on clarity, usability, and aligning design with business and communication goals.</p>
+    </div>
+    <div class="process-step">
+      <div class="process-step-num">03</div>
+      <div class="process-step-title">Deliver & Improve</div>
+      <p class="process-step-desc">I prepare final design outputs and collaborate with developers, marketing, and product teams to ensure accurate implementation. After launch, I support improvements based on feedback and real-world performance./p>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS & TESTIMONIALS -->
+<section id="our-clients">
+  <div class="section-eyebrow reveal">Who I've Worked With</div>
+  <h2 class="section-title reveal">Clients & <em>Testimonials</em></h2>
+  <p class="section-subtitle reveal">My freelance career includes long-term collaborations with startups, agencies, businesses and individuals across various industries and project types.This experience helped me develop strong independence, communication, and adaptability across different teams and cultures.</p>
+  <div class="clients-logos reveal">
+    <div class="client-logo-cell"><img src="img/company-1.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-2.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-3.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-4.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-5.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-6.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-7.png" alt="Client"></div>
+    <div class="client-logo-cell"><img src="img/company-8.png" alt="Client"></div>
+  </div>
+  <div class="testimonials reveal">
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-quote">"Very hard work from Petar and he finished everything I asked for without a single complaint. The end result is a massive set of designs to launch a completely new business. Well done and thank you so much!"</p>
+      <div class="testimonial-author">Hans N.</div>
+      <div class="testimonial-company">Handlarbudet.se</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-quote">"I've dealt with different freelancers, by far Petar is the best one in terms of everything — quality of work, communication, cooperation, creativity & skills. Very recommended!"</p>
+      <div class="testimonial-author">Bader A.</div>
+      <div class="testimonial-company">Budgeted Ventures</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-quote">"Petar was great in dealing with the job in hand, his design skills and punctuation is excellent. I am very happy with the work — a great designer."</p>
+      <div class="testimonial-author">Ray K.</div>
+      <div class="testimonial-company">Web Development UK</div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE PROP -->
+<section id="value-prop">
+  <div class="section-eyebrow reveal">Why Work With Me</div>
+  <h2 class="section-title reveal">What You <em>Avoid</em><br>& What You <em>Get</em></h2>
+  <div class="value-grid reveal">
+    <div class="value-col">
+      <div class="value-col-title">❌ What you want to avoid</div>
+      <div class="value-item">
+        <div class="value-icon icon-no">✕</div>
+        <div>
+          <div class="value-item-title">Inconsistent design quality</div>
+          <div class="value-item-desc">Projects feel rushed or poorly thought through, and results don't meet expectations.</div>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon icon-no">✕</div>
+        <div>
+          <div class="value-item-title">Unclear communication</div>
+          <div class="value-item-desc">Too much back-and-forth and having to explain the same things multiple times.</div>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon icon-no">✕</div>
+        <div>
+          <div class="value-item-title">Missed deadlines</div>
+          <div class="value-item-desc">Timelines slip, priorities change, and delivery becomes unreliable.</div>
+        </div>
+      </div>
+    </div>
+    <div class="value-col" style="background: var(--surface);">
+      <div class="value-col-title">✦ What I offer</div>
+      <div class="value-item">
+        <div class="value-icon icon-yes">✓</div>
+        <div>
+          <div class="value-item-title">High-quality, thoughtful design</div>
+          <div class="value-item-desc">Well-structured, usable, and visually strong solutions that support real goals.</div>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon icon-yes">✓</div>
+        <div>
+          <div class="value-item-title">Clear communication that works</div>
+          <div class="value-item-desc">Straightforward collaboration, clear feedback, and alignment throughout the process.</div>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon icon-yes">✓</div>
+        <div>
+          <div class="value-item-title">Reliable delivery</div>
+          <div class="value-item-desc">Realistic timelines, clear expectations, and consistent follow-through.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+  <div class="contact-inner reveal">
+
+    <!-- LEFT: availability + text -->
+    <div class="contact-left">
+      <div class="availability-badge"><span class="availability-dot"></span> Available </div>
+      <div class="contact-big-text">Let's build something <em>great</em> together.</div>
+      <p class="contact-desc">I'm currently open to full-time roles with agencies and companies, and also available for freelance projects. Whether you're starting a new project, improving an existing product, or looking for a reliable designer to join your team — feel free to get in touch.</p>
+    </div>
+
+    <!-- RIGHT: contact form -->
+    <div class="contact-right">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/paponjak_91@hotmail.com" method="post">
+        <fieldset id="fs-frm-inputs">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="Your full name" required="">
+            </div>
+            <div class="form-group">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="your@email.com" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea rows="6" name="message" id="message" placeholder="Write your message..." required=""></textarea>
+          </div>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section id="info">
+  <div class="info-strip reveal">
+
+    <div class="info-item">
+      <div class="info-label">Email</div>
+      <a href="mailto:paponjak_91@hotmail.com" class="info-value">paponjak_91@hotmail.com</a>
+    </div>
+
+    <div class="info-divider"></div>
+
+    <div class="info-item">
+      <div class="info-label">Telephone</div>
+      <a href="tel:+381645569939" class="info-value">+381 64 556 99 39</a>
+    </div>
+
+    <div class="info-divider"></div>
+
+    <div class="info-item">
+      <div class="info-label">Find Me On</div>
+      <div class="info-socials">
+        <a href="https://www.linkedin.com/in/paponjakpetar/" target="_blank" class="info-social-link">LinkedIn</a>
+        <a href="https://www.upwork.com/o/profiles/users/~01c7660b2d77b456ec/" target="_blank" class="info-social-link">Upwork</a>
+        <a href="https://www.coroflot.com/ppetar" target="_blank" class="info-social-link">Coroflot</a>
+      </div>
+    </div>
+
+    <div class="info-divider"></div>
+
+    <div class="info-item">
+      <div class="info-label">Curriculum Vitae</div>
+      <a href="cv-petar.pdf" target="_blank" class="info-cv-btn">Download CV ↓</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>© 2026 Design & Code by Petar Paponjak. All rights reserved.</div>
+ 
+  <a href="#home-section">Back to top ↑</a>
+</footer>
+
+<!-- BACK TO TOP -->
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script src="js/main.js"></script>
+
+
+<script>
+  // Hamburger menu
+  var hamburger = document.getElementById('nav-hamburger');
+  var mobileNav = document.getElementById('nav-mobile');
+  var overlay   = document.getElementById('nav-overlay');
+  var closeBtn  = document.getElementById('nav-mobile-close');
+
+  function openMenu() {
+    mobileNav.classList.add('open');
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMenu() {
+    mobileNav.classList.remove('open');
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  if (hamburger) hamburger.addEventListener('click', openMenu);
+  if (closeBtn)  closeBtn.addEventListener('click', closeMenu);
+  if (overlay)   overlay.addEventListener('click', closeMenu);
+  // Close on nav link click
+  document.querySelectorAll('.nav-mobile a').forEach(function(a) {
+    a.addEventListener('click', closeMenu);
+  });
+</script>
+
+<script>
+/* ── HERO GRID — dot flicker + glow animation ── */
+(function () {
+  var canvas = document.getElementById('hero-grid-canvas');
+  if (!canvas) return;
+
+  var ctx    = canvas.getContext('2d');
+  var GRID   = 60;   // must match CSS background-size
+  var dots   = [];
+  var MAX    = 6;    // max simultaneous glowing dots
+  var W, H, cols, rows;
+
+  function resize() {
+    W = canvas.offsetWidth;
+    H = canvas.offsetHeight;
+    canvas.width  = W;
+    canvas.height = H;
+    cols = Math.floor(W / GRID) + 1;
+    rows = Math.floor(H / GRID) + 1;
+  }
+
+  function randInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function spawnDot() {
+    if (dots.length >= MAX) return;
+    dots.push({
+      x:       randInt(0, cols - 1) * GRID,
+      y:       randInt(0, rows - 1) * GRID,
+      alpha:   0,
+      growing: true,
+      speed:   0.012 + Math.random() * 0.018,
+      size:    1.5 + Math.random() * 2,
+      color:   Math.random() > 0.4 ? '200,240,96' : '232,232,224'  /* accent or white */
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    /* update & draw dots */
+    dots = dots.filter(function (d) {
+      if (d.growing) {
+        d.alpha += d.speed;
+        if (d.alpha >= 1) { d.alpha = 1; d.growing = false; }
+      } else {
+        d.alpha -= d.speed * 0.7;
+      }
+      if (d.alpha <= 0) return false;  /* remove */
+
+      /* glow */
+      var grd = ctx.createRadialGradient(d.x, d.y, 0, d.x, d.y, 18);
+      grd.addColorStop(0,   'rgba(' + d.color + ',' + (d.alpha * 0.5) + ')');
+      grd.addColorStop(1,   'rgba(' + d.color + ',0)');
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, 18, 0, Math.PI * 2);
+      ctx.fillStyle = grd;
+      ctx.fill();
+
+      /* dot */
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, d.size, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(' + d.color + ',' + d.alpha + ')';
+      ctx.fill();
+
+      return true;
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  /* spawn a new dot every 800–1800ms */
+  function scheduleDot() {
+    spawnDot();
+    setTimeout(scheduleDot, randInt(800, 1800));
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+  scheduleDot();
+  draw();
+})();
+</script>
+</body>
+</html>

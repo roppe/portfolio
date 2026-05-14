@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z54DK7ZNBK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z54DK7ZNBK');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Petar Paponjak</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main-style.css">
+
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- ===================== NAV ===================== -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">PP<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#my-work">Portfolio</a></li>
+    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+  </ul>
+</nav>
+
+<!-- ===================== HERO / PROJECT INFO ===================== -->
+<section class="pf-hero">
+  <div class="pf-hero-inner">
+
+    <!-- LEFT: title + category -->
+    <div class="pf-hero-left">
+      
+      <div class="pf-category">Web design & Development</div>
+      <h1 class="pf-title">Kartaager<br><em>Webdesign</em></h1>
+      <div class="pf-meta">
+        <div class="pf-meta-item">
+          <span class="pf-meta-label">Industry</span>
+          <span class="pf-meta-value">Automotive</span>
+        </div>
+        <div class="pf-meta-item">
+          <span class="pf-meta-label">Role</span>
+          <span class="pf-meta-value">Web Designer </span>
+        </div>
+        <div class="pf-meta-item">
+          <span class="pf-meta-label">Tools</span>
+          <span class="pf-meta-value">Adobe Suite</span>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <!-- RIGHT: case study text -->
+        <div class="pf-hero-right">
+
+          <div class="pf-block">
+            <h6 class="pf-block-label">About Project</h6>
+
+            <p class="pf-block-text">
+              Design project for a Swedish startup focused on a car-related application.
+              The work included creating a modern visual identity and UI direction for both web and application use,
+              with a focus on clean interface design and scalable branding elements.
+            </p>
+          </div>
+
+          <div class="pf-block">
+            <h6 class="pf-block-label">Services:</h6>
+
+            <ul class="pf-list">
+              <li>New logo design, branding & corporate identity</li>
+              <li>Creation of graphic elements, icons, and UI design for web/app</li>
+              <li>Website design (PSD)</li>
+              <li>PSD to code conversion using Bootstrap, HTML, CSS, JavaScript</li>
+              <li>Responsive design — optimized for all devices</li>
+            </ul>
+
+          </div>
+
+        </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY — stacked images ===================== -->
+<!-- To add more images: just copy one <img> line and change the src -->
+
+    <section class="pf-gallery">
+
+      <div class="pf-carousel" id="pfCarousel">
+
+        <div class="pf-carousel-track">
+
+          <div class="pf-slide active">
+            <h1 class="pic-name">Home Landing Page</h1>
+            <img src="img/web/kart-h-1.png" alt="Home Landing Page" class="pf-img">
+          </div>
+
+          <div class="pf-slide">
+            <h1 class="pic-name">Contact Page</h1>
+            <img src="img/web/kart-c-2.png" alt="Contact Page" class="pf-img">
+          </div>
+
+          <div class="pf-slide">
+            <h1 class="pic-name">Pricing Page</h1>
+            <img src="img/web/kart-pr-3.png" alt="Pricing Page" class="pf-img">
+          </div>
+
+          <div class="pf-slide">
+            <h1 class="pic-name">Graphic Elements</h1>
+            <img src="img/web/kart-el-4.jpg" alt="Graphic Elements" class="pf-img">
+          </div>
+
+          <div class="pf-slide">
+            <h1 class="pic-name">Graphic Elements</h1>
+            <img src="img/web/kar-b-5.jpg" alt="Graphic Elements" class="pf-img">
+          </div>
+
+        </div>
+
+        <button class="pf-carousel-btn pf-prev" aria-label="Previous slide">‹</button>
+        <button class="pf-carousel-btn pf-next" aria-label="Next slide">›</button>
+
+        <div class="pf-carousel-dots">
+          <button class="pf-dot active" data-slide="0"></button>
+          <button class="pf-dot" data-slide="1"></button>
+          <button class="pf-dot" data-slide="2"></button>
+          <button class="pf-dot" data-slide="3"></button>
+          <button class="pf-dot" data-slide="4"></button>
+        </div>
+
+      </div>
+
+    </section>
+
+<section id="contact">
+  
+  <div class="contact-inner reveal">
+
+    <div class="contact-left">
+      <div class="availability-badge"><span class="availability-dot"></span> Available </div>
+      <div class="contact-big-text">Let's build something <em>great</em> together.</div>
+      <p class="contact-desc">I'm currently open to full-time roles with agencies and companies, and also available for freelance projects. Whether you're starting a new project, improving an existing product, or looking for a reliable designer to join your team — feel free to get in touch.</p>
+    </div>
+
+    <div class="contact-right">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/paponjak_91@hotmail.com" method="post">
+        <fieldset id="fs-frm-inputs">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="Your full name" required="">
+            </div>
+            <div class="form-group">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="your@email.com" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea rows="6" name="message" id="message" placeholder="Tell me about your project..." required=""></textarea>
+          </div>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== INFO STRIP ===================== -->
+<section id="info">
+  <div class="info-strip reveal">
+    <div class="info-item">
+      <div class="info-label">Email</div>
+      <a href="mailto:paponjak_91@hotmail.com" class="info-value">paponjak_91@hotmail.com</a>
+    </div>
+    <div class="info-divider"></div>
+    <div class="info-item">
+      <div class="info-label">Telephone</div>
+      <a href="tel:+381645569939" class="info-value">+381 64 556 99 39</a>
+    </div>
+    <div class="info-divider"></div>
+    <div class="info-item">
+      <div class="info-label">Find Me On</div>
+      <div class="info-socials">
+        <a href="https://www.linkedin.com/in/paponjakpetar/" target="_blank" class="info-social-link">LinkedIn</a>
+        <a href="https://www.upwork.com/o/profiles/users/~01c7660b2d77b456ec/" target="_blank" class="info-social-link">Upwork</a>
+        <a href="https://www.coroflot.com/ppetar" target="_blank" class="info-social-link">Coroflot</a>
+      </div>
+    </div>
+    <div class="info-divider"></div>
+    <div class="info-item">
+      <div class="info-label">Curriculum Vitae</div>
+      <a href="cv-petar.pdf" target="_blank" class="info-cv-btn">Download CV ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div>© 2026 Design &amp; Code by Petar Paponjak. All rights reserved.</div>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<!-- BACK TO TOP -->
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
