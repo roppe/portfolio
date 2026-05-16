@@ -1701,6 +1701,28 @@ footer div {
   .section-title { font-size: 36px; }
   .client-logo-cell { min-width: 80px; }
   .pf-title { font-size: 32px; }
+    #home-section {
+    display: block !important;
+    grid-template-columns: 1fr !important;
+    min-height:auto !important;
+    }
+
+    .hero-left {
+    width: 100% !important;
+    min-width: auto !important;
+    padding: 100px 24px 60px !important;
+    }
+
+    /* Hide right side (photo) on mobile */
+    .hero-right {
+    display: none !important;
+    }
+
+    .lookingfor-div{
+      padding-left: 20px !important;padding-right: 20px !important;
+    }
+
+
 }
 
 
